@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&display=swap');
+body {
+    background: url(./images/kitchen.webp) white;
+    background-size: cover;
+
+}
+
+img {
+    border: 10px solid black;
+    box-shadow: 0 0 5px 5px black;
+}
+h1 {
+    font-family: "Playwrite RO", Helvetica, sans-serif;
+    text-shadow: 3px 3px 6px black;
+    font-size: 30px;
+}
+
+ul {
+    color: white;
+    list-style-type: square;
+}
+
+.recipe {
+    font-family: "Playwrite RO", Helvetica, "Times New Roman", serif;
+    font-size: 18px;
+    color: white;
+    text-shadow: 3px 3px 6px black;
+}
+
