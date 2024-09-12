@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+* {
+    color: white;
+}
+body.carbonara {
+    background: #b3694c;
+}
+
+body.salmon {
+    background: url("./images/salmon.jpg") white;
+    background-size: cover;
+}
+
+body.stirfry {
+    background: url("./images/stirfry.webp") white;
+    background-size: cover;
+}
+
+.pic {
+    border: 5px solid black;
+    box-shadow: 0 0 5px 5px white;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.title.spaghetti {
+    font-family: "Nerko One", serif;
+    text-shadow: 5px 5px 5px yellow;
+}
+
+.title.tomato {
+    font-family: "EB Garamond", serif;
+    text-shadow: 3px 3px 3px orange;
+}
+
+.title.chicken {
+    font-family: "Kanit", serif;
+}
+
+h2, .steps {
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+}
+
+h2.title-sal {
+    font-family: "EB Garamond", serif;
+}
+
+h2.title-sfr {
+    font-family: "Kanit", serif;
+}
+
+h2.title-car {
+    font-family: "Nerko One", serif;
+}
+
+.ingredients {
+    font-size: 25px;
+    font-family: "Nerko One", serif;
+    text-shadow: 3px 3px 3px black;
+}
+
+.ingredients.stir {
+    font-family: "Kanit", serif;
+}
+
+.ingredients.salm {
+    font-family: "EB Garamond", serif;
+}
+
+.ingredients.carb {
+    font-family: "Playpen Sans", serif;
+}
+
+.unordered {
+    font-family: "Playpen Sans", serif;
+    text-shadow: 3px 3px 3px black;
+    font-size: 18px;
+}
+
+.ordered {
+    list-style-type:upper-roman;
+}
+
+p {
+    text-shadow: 3px 3px 3px black;
+    font-size: 18px;
+    font-family: "Playpen Sans", serif;
+}
+
+.bon {
+    text-shadow: 1px 1px 1px black;
+    font-weight: 1000;
+    color: black;
+    font-style: oblique;
+    font-size: 30px;
+}
+
+.back {
+    color: black;
+    font-style: italic;
+}
+
+.back.fish {
+    color: white;
+}
