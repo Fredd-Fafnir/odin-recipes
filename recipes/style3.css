@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playpen+Sans:wght@100..800&display=swap');
+
+body {
+    background: url("./images/salmon.jpg") white;
+    background-size: cover;
+}
+
+img {
+    border: 5px solid black;
+    box-shadow: 0 0 10px 10px white;
+}
+
+h1 {
+    font-family: "EB Garamond", serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px 3px 3px orange;
+}
+
+h3 {
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+    font-family: "EB Garamond", serif;
+}
+
+p {
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-size: 18px;
+    font-family: "Playpen Sans", serif;
+}
+
+ul, ol {
+    color: white;
+}
